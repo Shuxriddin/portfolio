@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Cruin";
+    src: url("../fonts/CruinnRegular.woff") format("woff2"),
+        url("../fonts/CruinnRegular.woff2") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/GorditaRegular.woff2") format("woff2"),
+        url("../fonts/GorditaRegular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gordita";
+    src: url("../fonts/GorditaBold.woff") format("woff2"),
+        url("../fonts/GorditaBold.woff2") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

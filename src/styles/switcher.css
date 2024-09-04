@@ -1,0 +1,72 @@
+/* switcher */
+.switcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    position: fixed;
+    right: 0%;
+    top: 20%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border: 1px solid var(--help-color);
+    z-index: 1;
+    background: var(--aztec-color);
+    transition: all .5s ease-in-out;
+}
+.switcher:hover {
+    box-shadow: 0 0 20px 5px var(--help-color);
+    transition: all .5s ease-in-out;
+}
+.switcher-btn {
+    text-align: center;
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    transition: stroke .5s ease-in-out;
+}
+.switcher-btn::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 22px;
+}
+.svg-switcher-dims {
+    width: 40px;
+    height: 40px;
+    animation: arrow 5s linear infinite;
+}
+.svg-switcher-dims:hover {
+    animation-play-state: paused;
+}
+
+@keyframes arrow {
+    0% {
+        transform: rotate(-360deg);        
+    }
+}
+.svg-use-switcher {
+    stroke: var(--help-color);
+    fill: transparent;
+    transition: stroke .5s ease-in-out;
+}
+.switcher-btn:hover .svg-use-switcher {
+    stroke: var(--white-color);        
+    transition: stroke .5s ease-in-out;
+}
+
+.dark {
+    /* --second-color: #00ffd5; */
+    --help-color: #00ffd5;
+}

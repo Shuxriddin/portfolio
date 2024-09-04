@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты и прочее</title>
+    <link rel="shortcut icon" href="/img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="main-body">
+    <div class="all-wrapper">
+        <div class="come-back-button">
+            <a class="come-back-link" href="index.html">
+                <p class="come-back-text">
+                    Назад
+                </p>
+            </a>
+        </div>
+        <main>
+            <section class="card-section">
+                <div class="container">
+                    <h2 class="card-title-main">Несколько примеров фронтенд-работы</h2>
+                    <ul class="card-container">
+                        <li class="card">
+                            <img class="card-img" src="/img/Evklid.jpg" alt="Evklid">
+                            <div class="card-content">
+                                <h3 class="card-title">Evklid</h3>
+                                <p class="card-description card-description-first">- HTML, CSS, JS +</p>
+                                <p class="card-description">- Адаптивность +</p>
+                                <p class="card-description">- Кроссбраузерность +</p>
+                                <p class="card-description">- Пиксел перфект +</p>
+                                <p class="card-description">- БЭМ +</p>
+                                <div class="card-btn-box">
+                                    <svg class="card-btn-svg">
+                                        <use xlink:href="/img/sprite.svg#github2svg"></use>
+                                    </svg>
+                                    <a class="card-btn"
+                                        href="https://github.com/Shuhriddin/projects/tree/main/cross-browser">Посмотреть
+                                        код</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="card">
+                            <img class="card-img" src="/img/Pro.jpg" alt="Evklid">
+                            <div class="card-content">
+                                <h3 class="card-title">Promotion</h3>
+                                <p class="card-description card-description-first">- HTML, CSS, JS +</p>
+                                <p class="card-description">- Адаптивность +</p>
+                                <p class="card-description">- Пиксел перфект +</p>
+                                <p class="card-description">- Кроссбраузерность +</p>
+                                <p class="card-description">- БЭМ +</p>
+                                <div class="card-btn-box">
+                                    <svg class="card-btn-svg">
+                                        <use xlink:href="/img/sprite.svg#github2svg"></use>
+                                    </svg>
+                                    <a class="card-btn"
+                                        href="https://github.com/Shuhriddin/projects/tree/main/Gulp_projects_for_GitHub/2.%20PromotionRU">Посмотреть
+                                        код</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="card">
+                            <img class="card-img" src="/img/Lagoona.jpg" alt="Evklid">
+                            <div class="card-content">
+                                <h3 class="card-title">Lagoona Hotel</h3>
+                                <p class="card-description card-description-first">- HTML, CSS, JS +</p>
+                                <p class="card-description">- Адаптивность +</p>
+                                <p class="card-description">- Пиксел перфект +</p>
+                                <p class="card-description">- Кроссбраузерность +</p>
+                                <p class="card-description">- БЭМ +</p>
+                                <div class="card-btn-box">
+                                    <svg class="card-btn-svg">
+                                        <use xlink:href="/img/sprite.svg#github2svg"></use>
+                                    </svg>
+                                    <a class="card-btn"
+                                        href="https://github.com/Shuhriddin/projects/tree/main/Lagoona">Посмотреть
+                                        код</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="card">
+                            <img class="card-img" src="/img/HP.jpg" alt="Evklid">
+                            <div class="card-content">
+                                <h3 class="card-title">High Pass</h3>
+                                <p class="card-description card-description-first">- HTML, CSS, JS +</p>
+                                <p class="card-description">- Адаптивность +</p>
+                                <p class="card-description">- Пиксел перфект +</p>
+                                <p class="card-description">- Кроссбраузерность +</p>
+                                <p class="card-description">- БЭМ +</p>
+                                <div class="card-btn-box">
+                                    <svg class="card-btn-svg">
+                                        <use xlink:href="/img/sprite.svg#github2svg"></use>
+                                    </svg>
+                                    <a class="card-btn"
+                                        href="https://github.com/Shuhriddin/projects/tree/main/High%20Pass">Посмотреть
+                                        код</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+            <!-- Accardion -->
+
+            <section class="accordion-section">
+                <div class="container main-container">
+                    <h2 class="projects-title">Часто задаваемые вопросы по JavaScript и Python</h2>
+                    <div class="accordion">
+                        <h2 class="project-title">JavaScript</h2>
+                        <div class="box">
+                            <div class="label">1. В чем разница между null и undefined?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Во-первых, они принадлежат к 7 «примитивам» (примитивным типам) JS:
+                                    <br><code>let primitiveTypes = ['string', 'number', 'null', 'undefined', 'boolean', 'symbol', 'bigint']</code>
+                                </p>
+                                <p class="project-description">
+                                    Во-вторых, они являются ложными значениями, т.е. результатом их преобразования в
+                                    логическое значение с помощью Boolean() или оператора "!!" является false:
+                                    <br><code>console.log(!!null) // false
+                                        console.log(!!undefined) // false                                        
+                                        console.log(Boolean(null)) // false
+                                        console.log(Boolean(undefined)) // false</code>
+                                </p>
+                                <p class="project-description">
+                                    Теперь о различиях.
+                                    undefined («неопределенный») представляет собой значение по умолчанию:
+                                    переменной, которой не было присвоено значения, т.е. объявленной, но не
+                                    инициализированной переменной;
+                                    функции, которая ничего не возвращает явно, например, console.log(1);
+                                    несуществующего свойства объекта.
+
+                                    В указанных случаях движок JS присваивает значение undefined.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="label">2. Для чего используется оператор "&&"?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Оператор "&&" (логическое и) находит и возвращает первое ложное значение либо
+                                    последний операнд, когда все значения истинные. Он использует короткое замыкание во
+                                    избежание лишних затрат:
+                                    <code>console.log(false && 1 && []) // false
+                                        console.log(' ' && true && 5) // 5</code>
+                                    С оператором «if»:
+                                    <code>const router: Router = Router()
+
+                                        router.get('/endpoint', (req: Request, res: Response) => {
+                                            let conMobile: PoolConnection
+                                            try {
+                                                // операции с базой данных
+                                            } catch (e) {
+                                                if (conMobile) {
+                                                    conMobile.release()
+                                                }
+                                            }
+                                        })</code>
+                                    То же самое с оператором "&&":
+                                    <code>
+                                        const router: Router = Router()
+                                        router.get('/endpoint', (req: Request, res: Response) => {
+                                            let conMobile: PoolConnection
+                                            try {
+                                                // операции с базой данных
+                                            } catch (e) {
+                                                conMobile && conMobile.release()
+                                            }
+                                        })
+                                    </code>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="label">3. Что такое DOM?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    DOM или Document Object Model (объектная модель документа) — это прикладной
+                                    программный интерфейс (API) для работы с HTML и XML документами. Когда браузер
+                                    первый раз читает («парсит») HTML документ, он формирует большой объект,
+                                    действительно большой объект, основанный на документе — DOM. DOM представляет собой
+                                    древовидную структуру (дерево документа). DOM используется для взаимодействия и
+                                    изменения самой структуры DOM или его отдельных элементов и узлов.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class=" label">4. Что такое всплытие события?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Когда событие происходит в элементе DOM, оно затрагивает не только этот элемент.
+                                    Событие «всплывает» (подобно пузырьку воздуха в воде), переходит от элемента,
+                                    вызвавшего событие (event.target), к его родителю, затем поднимается еще выше, к
+                                    родителю родителя элемента, пока не достигает объекта Window.
+                                    <br>У метода addEventListener есть третий необязательный параметр — useCapture.
+                                    Когда его значение равняется false (по умолчанию), событие начинается с фазы
+                                    всплытия. Когда его значение равняется true, событие начинается с фазы погружения
+                                    (для «прослушивателей» событий, прикрепленных к цели события, событие находится в
+                                    целевой фазе, а не в фазах погружения или всплытия. События в целевой фазе
+                                    инициируют все прослушиватели на элементе в том порядке, в котором они были
+                                    зарегистрированы независимо от параметра useCapture — прим. пер.). Если мы кликнем
+                                    по элементу child, в консоль будет выведено: child, parent, grandparent, html,
+                                    document, window. Вот что такое всплытие события.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class=" label">5. В чем разница между методами event.preventDefault() и
+                                event.stopPropagation()?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Метод event.preventDefault() отключает поведение элемента по умолчанию. Если
+                                    использовать этот метод в элементе form, то он предотвратит отправку формы (submit).
+                                    Если использовать его в contextmenu, то контекстное меню будет отключено (данный
+                                    метод часто используется в keydown для переопределения клавиатуры, например, при
+                                    создании музыкального/видео плеера или текстового редактора — прим. пер.). Метод
+                                    event.stopPropagation() отключает распространение события (его всплытие или
+                                    погружение).
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class=" label">6. В чем разница между операторами "==" и "==="?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Разница между оператором "==" (абстрактное или нестрогое равенство) и оператором
+                                    "===" (строгое равенство) состоит в том, что первый сравнивает значения после их
+                                    преобразования или приведения к одному типу (Coersion), а второй — без такого
+                                    преобразования.
+                                    <br><br>
+                                    Давайте копнем глубже. И сначала поговорим о преобразовании.
+                                    <br><br>
+                                    Преобразование представляет собой процесс приведения значения к другому типу или,
+                                    точнее, процесс приведения сравниваемых значений к одному типу. При сравнении
+                                    оператор "==" производит так называемое неявное сравнение. Оператор "==" выполняет
+                                    некоторые операции перед сравнением двух значений.
+                                    <br><br>
+                                    Допустим, мы сравниваем x и y.
+                                    <br><br>
+                                    Алгоритм следующий:
+                                    <br><br>
+                                    Если x и y имеют одинаковый тип, сравнение выполняется с помощью оператора "===".
+                                    Если x = null и y = undefined возвращается true.
+                                    Если x = undefined и y = null возвращается true.
+                                    Если x = число, а y = строка, возвращается x == toNumber(y) (значение y
+                                    преобразуется в число).
+                                    Если x = строка, а y = число, возвращается toNumber(x) == y (значение x
+                                    преобразуется в число).
+                                    Если x = логическое значение, возвращается toNumber(x) == y.
+                                    Если y = логическое значение, возвращается x == toNumber(y).
+                                    Если x = строка, символ или число, а y = объект, возвращается x == toPrimitive(y)
+                                    (значение y преобразуется в примитив).
+                                    Если x = объект, а y = строка, символ или число, возвращается toPrimitive(x) == y.
+                                    Возвращается false.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class=" label">7. Что такое поднятие (Hoisting)?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Поднятие — это термин, описывающий подъем переменной или функции в глобальную или
+                                    функциональную области видимости.
+                                    <br><br>
+                                    Для того, чтобы понять, что такое Hoisting, необходимо разобраться с тем, что
+                                    представляет собой контекст выполнения.
+                                    <br><br>
+                                    Контекст выполнения — это среда, в которой выполняется код. Контекст выполнения
+                                    имеет две фазы — компиляция и собственно выполнение.
+                                    <br><br>
+                                    Компиляция. В этой фазе функциональные выражения и переменные, объявленные с помощью
+                                    ключевого слова «var», со значением undefined поднимаются в самый верх глобальной
+                                    (или функциональной) области видимости (как бы перемещаются в начало нашего кода.
+                                    Это объясняет, почему мы можем вызывать функции до их объявления — прим. пер.).
+                                    <br><br>
+                                    Выполнение. В этой фазе переменным присваиваются значения, а функции (или методы
+                                    объектов) вызываются или выполняются.
+                                    <br><br>
+                                    Запомните: поднимаются только функциональные выражения и переменные, объявленные с
+                                    помощью ключевого слова «var». Обычные функции и стрелочные функции, а также
+                                    переменные, объявленные с помощью ключевых слов «let» и «const» не поднимаются.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class=" label">8. Что такое замыкание (Closures)?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    По сути, замыкание — это способность функции во время создания запоминать ссылки на
+                                    переменные и параметры, находящиеся в текущей области видимости, в области видимости
+                                    родительской функции, в области видимости родителя родительской функции и так до
+                                    глобальной области видимости с помощью цепочки областей видимости. Обычно область
+                                    видимости определяется при создании функции.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class=" label">9. Какое значение имеет this?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Обычно this ссылается на значение объекта, который в данный момент выполняет или
+                                    вызывает функцию. «В данный момент» означает, что значение this меняется в
+                                    зависимости от контекста выполнения, от того места, где мы используем this.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class=" label">10. Что такое прототип объекта?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    В двух словах, прототип — это план (схема или проект) объекта. Он используется как
+                                    запасной вариант для свойств и методов, существующих в данном объекте. Это также
+                                    один из способов обмена свойствами и функциональностью между объектами. Это основная
+                                    концепция прототипного наследования в JS.
+                                    <code>const o = {}
+                                        console.log(o.toString()) // [object Object]</code>
+                                    Несмотря на то, что объект «о» не имеет свойства toString, обращение к этому
+                                    свойству не вызывает ошибки. Если определенного свойства нет в объекте, его поиск
+                                    осуществляется сначала в прототипе объекта, затем в прототипе прототипа объекта и
+                                    так до тех пор, пока свойство не будет найдено. Это называется цепочкой прототипов.
+                                    На вершине цепочки прототипов находится Object.prototype.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Backend -->
+                        <h2 class="project-title">Python</h2>
+                        <div class="box">
+                            <div class="label">1. Что такое Python?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Python — это язык программирования с объектами, модулями, потоками, исключениями и
+                                    автоматическим управлением памятью. Python предназначен для высокой читабельности.
+                                    Он часто использует английские ключевые слова, в то время как другие языки
+                                    используют пунктуацию, и у него меньше синтаксических конструкций, чем у других
+                                    языков.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="label">2. Каковы преимущества использования Python?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Они заключаются в том, что он прост, удобен, портативен, расширяем, имеет встроенную
+                                    структуру данных и открытый исходный код.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="label">3. Как Python интерпретируется как язык?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Интерпретируемый язык — это любой язык программирования, который не находится в
+                                    машинном коде до выполнения. Таким образом, Python им и является.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">4. Как интерпретируется Python?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Программа Python запускается непосредственно из исходного кода, написанным
+                                    программистом. Язык преобразует его в промежуточный код, который снова переводится
+                                    на машинный язык, который затем уже должен быть выполнен.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">5. Как в Python управляется память?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    - Память в Python управляется приватным пространством кучи Python. В ней расположены
+                                    все объекты и структуры данных Python. Об этой куче заботится сам интерпретатор
+                                    Python, а программист не имеет к ней доступа.<br>
+                                    - Менеджер памяти Python заботится о выделении частного пространства кучи.<br>
+                                    - Память для пространства кучи Python предоставляется встроенным сборщиком мусора,
+                                    который перерабатывает и освобождает всю неиспользуемую память.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">6. Что такое PEP 8?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    PEP расшифровывается как Python Enhancement Proposal (Предложение по улучшению
+                                    Python). Это набор правил, которые определяют, как форматировать код для
+                                    максимальной читабельности.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">7. Как писать комментарии на Python?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Комментарии начинаются с символа #.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">8. Как прокомментировать несколько строк в Python?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Многострочные комментарии появляются на нескольких строках. Все строки, подлежащие
+                                    комментарию, должны иметь префикс #. Можно использовать метод быстрого доступа,
+                                    чтобы прокомментировать несколько строк. Все, что нужно сделать, — это удерживать
+                                    клавишу ctrl и щелкнуть левой кнопкой мыши в том месте, где вы хотите включить
+                                    символ #, и ввести # только один раз. Это закомментирует все строки, на которых
+                                    щелкнули курсором.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">9. Что такое строки документации в Python?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Docstrings не являются комментариями, это строки документации. Они заключены в
+                                    тройные кавычки. Такие строки не привязаны ни к одной переменной, и поэтому иногда
+                                    служат в качестве комментариев.
+                                    <br>
+                                    """<br>
+                                    Это строка документации
+                                    Она используется для документирования<br>
+                                    """
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">10. Обязательны ли отступы в Python?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Отступ в Python является обязательным и является частью его синтаксиса.<br><br>
+                                    Все языки программирования имеют некоторый способ определения объема и масштаба
+                                    блока кодов — в Python это отступ. Отступ обеспечивает лучшую читабельность кода, и
+                                    именно поэтому он обязателен.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">11. Что такое функция в Python?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Функция — это блок кода, который выполняется только при его вызове. Для определения
+                                    функции Python используется ключевое слово def. Если функция возвращает что-то, ей
+                                    нужно ключевое слово return.<br>
+                                    <code>
+                                        def example(a):<br>
+                                            return a*2
+                                    </code>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">12. Что такое локальные и глобальные переменные в Python?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    <b>Глобальная переменная:</b><br>
+                                    Переменные, объявленные вне функции или в глобальном пространстве, называются
+                                    глобальными. Они могут быть доступны любой функции в программе.<br><br>
+                                    <b>Локальная переменная:</b>
+                                    <br>
+                                    Любая переменная, объявленная внутри функции, называется локальной. Она присутствует
+                                    в локальном пространстве, а не в глобальном.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">13. Что такое лямбда-функция?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Анонимная или неназванная функция называется лямбда-функцией. Она может иметь любое
+                                    количество параметров, но только один оператор. Она часто используется как
+                                    одноразовая функция, а не многоразовая.
+                                <pre>#Пример лямбда-функции
+                                        test = lambda x,y: x*y
+                                        print(test(2,4))
+                                </pre>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">14. Почему лямбда-формы в Python не имеют операторов?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Потому что они используются для создания нового объекта функции, а затем возвращают
+                                    его во время выполнения.
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">15. Какие типы данных поддерживаются в Python?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Python имеет пять стандартных типов данных −<br>
+                                    • число (целочисленные и с плавающей запятой);<br>
+                                    • строка;<br>
+                                    • список;<br>
+                                    • кортеж;<br>
+                                    • словарь.
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">16. Являются ли массивы Python NumPy лучше списков?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Мы используем массивы Python NumPy вместо списка по следующим трем причинам:<br>
+                                    1. меньший объем памяти;<br>
+                                    2. быстрее;<br>
+                                    3. удобнее.
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">17. Как вычислять процентили с помощью NumPy?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Медиана — это 50 процентиль по определению. 25 процентиль указывает, что 25%
+                                    наблюдаемых меньше числа в процентиле, то есть n процентов наблюдаемых значений
+                                    меньше значения в процентиле n.<br><br>
+                                    Мы можем вычислить его с помощью NumPy, используя следующий код:<br>
+                                    <code>import numpy as np<br>
+                                        a = np.array([i for i in range(100)])<br>
+                                        p = np.percentile(a, 50) #Возвращает 50-ый перцентиль - медиану<br>
+                                        print(p)</code>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">18. Как получить текущий рабочий каталог с помощью Python?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Работая с Python, вам может понадобиться читать и записывать файлы из различных
+                                    каталогов. Чтобы узнать, в каком вы сейчас работаете, можно использовать метод
+                                    getcwd() из модуля os:<br>
+                                    import os<br>
+                                    os.getcwd()
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">19. Что такое pandas в Python?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Pandas — это пакет Python, предоставляющий быстрые, гибкие и функциональные
+                                    структуры данных, предназначенные для того, чтобы сделать работу с “реляционными”
+                                    или “помеченными” данными простой и интуитивно понятной. Он призван стать
+                                    фундаментальным строительным блоком высокого уровня для практического анализа
+                                    реальных данных в Python.
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="label">20. Что значит *args, **kwargs? И зачем нам их использовать?</div>
+                            <div class="content">
+                                <p class="project-description">
+                                    Мы используем *args, когда неуверены, сколько аргументов будет передано функции, или
+                                    если хотим передать сохраненный список или кортеж аргументов функции. **kwargs
+                                    используется, когда мы не знаем, сколько аргументов ключевых слов будет передано, а
+                                    также он может быть использован для передачи значений словаря в качестве аргументов
+                                    ключевых слов. Идентификаторы args и kwargs необязательны, вы можете изменить их на
+                                    другие, типа *другой **пример, но лучше использовать имя по умолчанию.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const accordions = document.getElementsByClassName("box");
+            for (let i = 0; i < accordions.length; i++) {
+                accordions[i].addEventListener('click', function () {
+                    this.classList.toggle('activate');
+                });
+            }
+        });
+    </script>
+    <script type="module" src="vendor.js"></script>
+    <script type="module" defer src="app.js"></script>
+</body>
+
+</html>
