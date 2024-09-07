@@ -98,7 +98,7 @@
 }
 .hero__text {
     display: block;
-    color: var(--hero-text);
+    color: var(--white-color);
     font-family: "Gordita";
     font-size: 32px;
     font-weight: 400;
